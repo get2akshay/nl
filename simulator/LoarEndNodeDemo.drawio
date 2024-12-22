@@ -20,7 +20,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A4NV4GKSswzCM_kaXUeC-8" value="" style="swimlane;startSize=0;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-9">
-          <mxGeometry width="466" height="170" as="geometry" />
+          <mxGeometry width="466" height="170" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="A4NV4GKSswzCM_kaXUeC-1" value="MKR1310" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-8">
           <mxGeometry x="130" y="50" width="80" height="80" as="geometry" />
@@ -38,10 +40,27 @@
           <mxGeometry x="200" y="500" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A4NV4GKSswzCM_kaXUeC-19" value="Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="50" y="787" width="103" height="103" as="geometry" />
+          <mxGeometry x="40" y="1007" width="103" height="103" as="geometry" />
         </mxCell>
         <mxCell id="A4NV4GKSswzCM_kaXUeC-20" value="Motor&lt;div&gt;Relay&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="730" y="780" width="103" height="103" as="geometry" />
+          <mxGeometry x="710" y="1007" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-26" value="LEVEL&lt;div&gt;SHIFT&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-27" value="UltraSonic&lt;div&gt;Sensor&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-28" value="Power" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-29" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="940" width="466" height="170" as="geometry">
+            <mxRectangle width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-30" value="MKR1310" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-29">
+          <mxGeometry x="130" y="50" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
