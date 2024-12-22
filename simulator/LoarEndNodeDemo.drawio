@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15" version="25.0.3">
   <diagram name="Page-1" id="Wq7MOc8dj08yNdRh3f31">
-    <mxGraphModel>
+    <mxGraphModel dx="1058" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="720" width="466" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-2" value="LEVEL&lt;div&gt;SHIFT&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-9">
+          <mxGeometry x="240" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-3" value="UltraSonic&lt;div&gt;Sensor&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-9">
+          <mxGeometry x="350" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-4" value="Power" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-9">
+          <mxGeometry x="20" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A4NV4GKSswzCM_kaXUeC-9" source="A4NV4GKSswzCM_kaXUeC-2" target="A4NV4GKSswzCM_kaXUeC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-8" value="" style="swimlane;startSize=0;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-9">
+          <mxGeometry width="466" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-1" value="MKR1310" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="A4NV4GKSswzCM_kaXUeC-8">
+          <mxGeometry x="130" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A4NV4GKSswzCM_kaXUeC-9" source="A4NV4GKSswzCM_kaXUeC-4" target="A4NV4GKSswzCM_kaXUeC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="A4NV4GKSswzCM_kaXUeC-9" source="A4NV4GKSswzCM_kaXUeC-1" target="A4NV4GKSswzCM_kaXUeC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-16" value="Gateway" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="391.5" y="590" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-18" value="Cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-19" value="Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="787" width="103" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="A4NV4GKSswzCM_kaXUeC-20" value="Motor&lt;div&gt;Relay&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="780" width="103" height="103" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
